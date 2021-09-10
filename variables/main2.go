@@ -39,4 +39,7 @@ func main() {
 	reader.ReadString('\n')
 
 	// give them the answer
+
+	answer = firstNumber*secondNumber - subtraction
+	fmt.Println("The answer is ", answer)
 }
